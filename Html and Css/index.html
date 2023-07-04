@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>calculatorusingflex</title>
+
+    <style>
+        #sol {
+            height: 150px;
+            width: 600px;
+            margin: 20px 35px 20px 45px;
+            border: 1px solid black;
+            background: white;
+        }
+
+        .rows {
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            text-align: center;
+            margin: 10px;
+            background: cyan;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        li:hover {
+            color: blue;
+        }
+
+        .whole {
+            border: 2px solid blue;
+            margin: 10px;
+            padding: 10px;
+            width: 700px;
+            background: yellow;
+            font-size: 22px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="whole">
+
+        <div style="text-align: center;">CALCULATOR</div>
+        <div id="sol"></div>
+        <div class="rows">
+
+            <ul>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>X</li>
+            </ul>
+            <ul>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>-</li>
+            </ul>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>+</li>
+            </ul>
+            <ul>
+                <li>AC</li>
+                <li>0</li>
+                <li>%</li>
+                <li>/</li>
+            </ul>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

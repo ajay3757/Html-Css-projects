@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TRANSFORMS</title>
+  <style>
+    
+
+    .grid_parent {
+      background-color: cyan;
+      padding: 10px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 200px 200px 200px;
+      row-gap: 25px;
+      column-gap: 25px;
+    }
+
+    .grid_child {
+      background-color: yellow;
+      border: 2px solid white;
+    }
+
+    .child1:hover {
+      transform: rotate(-360deg);
+      transition: transform 1s;
+    }
+
+    .child2:hover {
+      transform: rotate(45deg);
+    }
+
+    .child3:hover {
+      transform: rotate(360deg);
+      transition: transform 2s;
+    }
+
+    .child4:hover {
+      transform: rotate(120deg);
+      transition: transform 0s;
+    }
+
+    .child5:hover {
+      transform: translateY(120px);
+      transition: transfor 1s;
+    }
+
+    .child6:hover {
+      transform: translate(360px);
+      transition: transform 1s;
+    }
+
+    .child7:hover {
+      transform: translateY(-360px);
+      transition: transform 1s;
+    }
+
+    .child8:hover {
+      transform: scale(5.2);
+      transition: transform 0.5s;
+
+    }
+
+    .child9:hover {
+      transform: scale(0.5);
+      transition: 0.5s;
+    }
+
+    .child11:hover {
+      transform: scalex(1.5);
+    }
+
+    .child10:hover {
+      transform: scaleY(-1);
+      transition: transform 0.5s;
+    }
+
+    .child12:hover {
+      transform: scalex(-.5);
+      transition: transform 0.5s
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grid_parent">
+    <div class="grid_child grid_son1">
+      <img class="child1" src="./image/Minions.png">
+    </div>
+    <div class="grid_child grid_son2">
+      <img class="child2" src="./image/Minions.png">
+    </div>
+    <div class="grid_child grid_son3">
+      <img class="child3" src="./image/Minions.png">
+    </div>
+    <div class="grid_child grid_son4">
+      <img class="child4" src="./image/Minions.png">
+    </div>
+    <div class="grid_child grid_son5">
+      <img class="child5" src="./image/Minions.png">
+    </div>
+    <div class="grid_child grid_son6">
+      <img class="child6" src="./image/Minions.png">
+    </div>
+    <div class="grid_child grid_son7">
+      <img class="child7" src="./image/Minions.png">
+    </div>
+    <div class="grid_child grid_son8">
+      <img class="child8" src="./image/Minions.png">
+    </div>
+    <div class="grid_child grid_son9">
+      <img class="child9" src="./image/Minions.png">
+    </div>
+    <div class="grid_child grid_son10">
+      <img class="child10" src="./image/Minions.png">
+    </div>
+    <div class="grid_child grid_son11">
+      <img class="child11" src="./image/Minions.png">
+    </div>
+    <div class="grid_child grid_son12">
+      <img class="child12" src="./image/Minions.png">
+    </div>
+
+  </div>
+</body>
+
+</html>
